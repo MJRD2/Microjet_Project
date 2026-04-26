@@ -261,4 +261,4 @@ if __name__ == '__main__':
     # 雲端環境由環境變數決定 Port，預設為 10000 (Render 常用)
     port = int(os.environ.get("PORT", 5001))
     # 關閉 debug 模式進行部署
-    app.run(host='0.0.0.0', port=port, debug=False
+    app.run(host='0.0.0.0', port=port, debug=False)
